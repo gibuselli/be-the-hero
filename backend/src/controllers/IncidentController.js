@@ -35,7 +35,7 @@ module.exports = {
             description,
             value,
             ong_id,
-        })
+        });
         
         return response.json({ id });
     },
