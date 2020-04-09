@@ -41,7 +41,7 @@ export default function Incidents() {
         setPage(page + 1);
         setLoading(false);
     }
-
+    
     useEffect(() => {
         loadIncidents();
     }, []);
